@@ -5,7 +5,7 @@ A vector file defines geographic features: points, lines and polygons. See the t
 API workflow in brief:
 
 - Upload the vector data along with the associated sidecar files in a zip file by using the [CartoDB Editor](http://docs.cartodb.com/cartodb-editor.html) or making a request to the [Import API](http://docs.cartodb.com/cartodb-platform/import-api.html) directly. ([Supported formats](http://docs.cartodb.com/cartodb-editor.html#supported-file-formats).)
-- Go to the CartoDB Editor (<YOUR_USERNAME>.cartodb.com) and open the new table.
+- Go to the CartoDB Editor (YOUR_USERNAME.cartodb.com) and open the new table.
 - Style the data by [configuring a wizard](http://docs.cartodb.com/tutorials/visualization_wizard.html) or by manually [editing the CartoCSS](http://docs.cartodb.com/tutorials/conditional_styling.html).
 - Set the table's [privacy settings](http://docs.cartodb.com/cartodb-editor.html#table-privacy-settings) to determine who can see it.
 - Create a new visualization by clicking the _visualize_ button in the top right corner of the CartoDB Editor and enter a name.
@@ -13,10 +13,9 @@ API workflow in brief:
 
 Try it yourself by following [the example](http://docs.cartodb.com/cartodb-platform/import-api.html#uploading-a-local-file) in the Import API documentation.
 
-
 ### Insert vector data incrementally
 
-Instead of uploading all the features at once via a file upload, as described in the above vector-upload scenario, you can insert new date over time / as needed.
+Instead of uploading all the features at once via a file upload, as described in the above vector-upload scenario, you can insert new data over time / as needed.
 
 This workflow is useful when your application needs to collect data or offers a user interface where people can add features, for example.
 
@@ -58,15 +57,3 @@ For the import, follow [the example](http://docs.cartodb.com/cartodb-platform/im
 For smaller images or small sets of images, using the Google Maps API to create a [ground overlay(s)](https://developers.google.com/maps/documentation/javascript/examples/groundoverlay-simple) with the image(s) is often easier.
 
 ### Upload and process large volumes of imagery
-
-
-
-
-
-
-
-
-
-
-
-

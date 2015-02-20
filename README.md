@@ -49,7 +49,7 @@ A raster image is a geo-referenced image. CartoDB supports GeoTIFF images. See t
 API workflow in brief:
 
 - Upload the vector data along with the associated sidecar files in a zip file. ([Supported formats](http://docs.cartodb.com/cartodb-editor.html#supported-file-formats).)
-- Go to the CartoDB Editor (<YOUR_USERNAME>.cartodb.com).
+- Go to the CartoDB Editor (YOUR_USERNAME.cartodb.com).
 - You will see a new _Raster Table_ item in your table list. Currently, you can only interact with images in CartoDB over the SQL API, i.e., you won't be able view your GeoTIFF in the CartoDB Editor.
 
 For the import, follow [the example](http://docs.cartodb.com/cartodb-platform/import-api.html#uploading-a-local-file) in the Import API documentation. Here's [an example](http://bl.ocks.org/rochoa/d3cf809120bda97d0826) of creating a map with a CartoDB Raster Table and CartoDB.js.
